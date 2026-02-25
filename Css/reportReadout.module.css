@@ -1,0 +1,265 @@
+.reportMainContainer{
+    /* border: 1px solid red; */
+    /* width: 100%;
+    max-width: 99%; */
+    /* margin: auto; */
+}
+.reportContainer{
+    /* border: 1px solid green; */
+    width: 100%;
+    display: flex;
+    max-width: 70.0625rem;
+    /* height: 39.75rem; */
+    padding: 1rem 1.0625rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.625rem;
+    flex-shrink: 0;
+    margin: auto;
+    border-radius: 1rem;
+    background: var(--Border-Focused, #A3A6FA);
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+.reportContent{
+    /* border: 1px solid red; */
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 1.25rem;
+    height: 100%;
+}
+.reportBoxContainer{
+    /* border: 1px solid green; */
+    display: flex;
+    width: 100%;
+    max-width: 52.9375rem;
+    padding: 1.6875rem 0.9375rem 1.125rem 0.9375rem;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1.3125rem;
+    border-radius: 0.875rem;
+    background: #FFF7ED;
+    position: relative;
+}
+.reportBoxUp{
+    /* border: 1px solid black; */
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    height: 100%;
+    /* overflow: auto; */
+}
+.reportBoxDown{
+    /* border: 1px solid blue; */
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reportImageContent{
+    /* border: 1px solid orange; */
+    /* width: 100%;
+    max-width: 100%; */
+    position: relative;
+}
+.reportImageContent img{
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+}
+.reportText {
+  /* border: 1px solid green; */
+  width: 100%;
+  max-width: 70%;
+  position: absolute;
+  top: 52%;
+  /* bottom: -10%; */
+  left: 49%;
+  transform: translate(-50%, -50%);
+  min-height: 17.69rem;
+  max-height: 17.69rem;
+  overflow: scroll;
+}
+.reportText::-webkit-scrollbar {
+  display: none;
+}
+.reportHeading{
+    color: #000;
+   text-align: center;
+   font-family: "Lilita One";
+   font-size: 1.5rem;
+   font-style: normal;
+   font-weight: bolder;
+   line-height: 120%;
+}
+.readOutContainer {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 25%;
+    overflow: auto;
+
+}
+
+@media screen and (min-width: 766px) and (max-width: 1024px) {
+    
+.reportContainer{
+    /* border: 1px solid green; */
+    width: 95%;
+    display: flex;
+    /* max-width: 42.0625rem; */
+    /* height: 39.75rem; */
+    /* padding: 1rem; */
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.625rem;
+    flex-shrink: 0;
+    margin: auto;
+    border-radius: 1rem;
+    background: var(--Border-Focused, #A3A6FA);
+}
+.reportContent{
+    /* border: 1px solid red; */
+    width: 100%;
+    /* max-width:44rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.25rem;
+    margin: auto;
+}
+
+.reportBoxContainer{
+    /* border: 1px solid green; */
+    display: flex;
+    width:100%;
+    max-width:100%;
+    padding: 1rem;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    gap: 1.3125rem;
+    border-radius: 0.875rem;
+    background: #FFFF;
+    position: relative;
+    /* max-height: 70vh;
+    min-height: 70vh; */
+    height: 100%;
+}
+.readOutContainer{
+    width: 100%;
+}
+.reportImageContent{
+    /* border: 1px solid orange;  */
+     width: 100%;
+     max-width: 100%; 
+     display: flex;
+     justify-content: center;
+    position: relative;
+}
+.reportImageContent img{
+    /* width: 100%; */
+    /* max-width: 100%; */
+    height: 100%;
+    position: relative;
+}
+.reportText {
+    /* border: 1px solid green; */
+    width: 100%;
+    max-width: 70%;
+    position: absolute;
+    top: 58%;
+    transform: translate(-50%, -50%);
+    min-height: 17.69rem;
+    max-height: 17.69rem;
+    overflow: scroll;
+  }
+
+
+}
+@media screen and (min-width: 370px) and (max-width: 760px) {
+.reportContainer{
+    /* border: 1px solid green; */
+    width: 100%;
+    display: flex;
+    max-width: 24.0625rem;
+    /* height: 39.75rem; */
+    padding: 1rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.625rem;
+    flex-shrink: 0;
+    margin: auto;
+    border-radius: 1rem;
+    background: var(--Border-Focused, #A3A6FA);
+}
+.reportContent{
+    /* border: 1px solid red; */
+    width: 100%;
+    max-width:44rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.25rem;
+    margin: auto;
+}
+
+.reportBoxContainer{
+    /* border: 1px solid green; */
+    display: flex;
+    width:100%;
+    max-width:95%;
+    padding: 1rem;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    gap: 1.3125rem;
+    border-radius: 0.875rem;
+    background: #FFFF;
+    position: relative;
+    max-height: 70vh;
+    min-height: 70vh;
+}
+ .reportImageContent img{
+    width: 100%;
+    max-width: 100%;
+    min-height: 55vh;
+    max-height: 55vh;
+    position: relative;
+}
+.reportText {
+  /* border: 1px solid green; */
+  width: 100%;
+  max-width: 70%;
+  position: absolute;
+  top: 54%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+  min-height: 15.69rem;
+  max-height: 15.69rem;
+  overflow: scroll;
+}
+.textSubtitle{
+  color: #000 !important;
+  text-align: center;
+  font-family: "Reddit Sans";
+  font-size: var(--Typography-Text-Subtitle-Size, 0.875rem) !important;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; 
+}
+.readOutContainer{
+    width: 100%;
+}
+}

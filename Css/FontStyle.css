@@ -1,0 +1,532 @@
+@media(min-width: 1024px) {
+    .text_body {
+        color: #2C2C2C;
+        text-align: center;
+        font-family: "Reddit Sans";
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%;
+        /* 64px */
+    }
+
+    .text_body_recording {
+        color: #000;
+        text-align: center;
+        font-family: "Reddit Sans";
+        font-size: var(--Typography-Text-Body-Size, 16px);
+        font-style: normal;
+        font-weight: 400;
+        line-height: 128%;
+    }
+
+    .h1 {
+        font-family: "Reddit Sans";
+        font-size: var(--Typography-Headline-H1-Size, 48px);
+        font-style: normal;
+        font-weight: 700;
+        line-height: 112%;
+        /* 53.76px */
+        letter-spacing: -0.576px;
+    }
+
+    .h3 {
+        /* Headline/H3 */
+        font-family: "Reddit Sans";
+        font-size: var(--Typography-Headline-H3-Size, 24px);
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        /* 28.8px */
+    }
+
+    .h4 {
+        /* Headline/H4 */
+        color: #6F6F6F;
+        font-family: "Reddit Sans";
+        font-size: var(--Typography-Headline-H4-Size, 16px);
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        /* 19.2px */
+    }
+
+
+    .subtitle {
+        font-family: "Reddit Sans";
+        font-size: var(--Typography-Text-Subtitle-Size, 14px);
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        /* 21px */
+    }
+
+    .h8 {
+        /* Headline/H8 */
+        font-family: "Reddit Sans";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 50px;
+        /* 156.25% */
+    }
+
+    .h7 {
+        font-family: "Reddit Sans";
+        font-size: var(--Typography-Headline-H7-Size, 20px);
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        /* 24px */
+    }
+
+    .classRoomtext {
+        color: #FFF;
+        text-align: center;
+        font-family: "Rubik Dirt";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 50px;
+        /* 156.25% */
+    }
+
+
+    .announcementText {
+        color: #484848;
+        font-family: "Reddit Sans";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 128%;
+        /* 25.6px */
+    }
+
+    .noticeHeadingFont {
+        color: #0A0A0A;
+
+        text-align: center;
+        font-family: Rowdies;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 50px;
+        /* 125% */
+    }
+
+    .h2 {
+        font-family: "Reddit Sans";
+        font-size: var(--Typography-Headline-H2-Size, 40px);
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        /* 48px */
+        letter-spacing: -0.32px;
+    }
+
+
+    .poster {
+        color: #CD7612;
+
+        text-align: center;
+        font-family: "Sigmar One";
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 128%;
+        /* 46.08px */
+    }
+
+    .posterText {
+        color: #5B3509;
+
+        text-align: center;
+        font-family: Rockwell;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 128%;
+        /* 40.96px */
+    }
+
+    .text_body_2x {
+        /* Text/Body 2X */
+        font-family: "Reddit Sans";
+        font-size: var(--Typography-Text-Body-2X-Size, 20px);
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        /* 30px */
+    }
+
+
+    .timeTablesHeading {
+        color: #000;
+        text-align: center;
+        font-family: "Red Rose";
+        font-size: var(--Typography-Headline-H2-Size, 40px);
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        /* 48px */
+        letter-spacing: -0.32px;
+    }
+}
+
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .text_body {
+        color: #2C2C2C;
+        text-align: center;
+        font-family: "Reddit Sans";
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%;
+        /* 64px */
+    }
+
+    .text_body_recording {
+        color: #000;
+        text-align: center;
+        font-family: "Reddit Sans";
+        font-size: var(--Typography-Text-Body-Size, 16px);
+        font-style: normal;
+        font-weight: 400;
+        line-height: 128%;
+    }
+
+    .h1 {
+        font-family: "Reddit Sans";
+        font-size: var(--Typography-Headline-H1-Size, 48px);
+        font-style: normal;
+        font-weight: 700;
+        line-height: 112%;
+        /* 53.76px */
+        letter-spacing: -0.576px;
+    }
+
+    .h3 {
+        /* Headline/H3 */
+        font-family: "Reddit Sans";
+        font-size: var(--Typography-Headline-H3-Size, 24px);
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        /* 28.8px */
+    }
+
+    .h4 {
+        /* Headline/H4 */
+        color: #6F6F6F;
+        font-family: "Reddit Sans";
+        font-size: var(--Typography-Headline-H4-Size, 18px);
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        /* 19.2px */
+    }
+
+
+    .subtitle {
+        font-family: "Reddit Sans";
+        font-size: var(--Typography-Text-Subtitle-Size, 14px);
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        /* 21px */
+    }
+
+    .h8 {
+        /* Headline/H8 */
+        font-family: "Reddit Sans";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 50px;
+        /* 156.25% */
+    }
+
+    .h7 {
+        font-family: "Reddit Sans";
+        font-size: var(--Typography-Headline-H7-Size, 20px);
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        /* 24px */
+    }
+
+    .classRoomtext {
+        color: #FFF;
+        text-align: center;
+        font-family: "Rubik Dirt";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 50px;
+        /* 156.25% */
+    }
+
+
+    .announcementText {
+        color: #484848;
+        font-family: "Reddit Sans";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 128%;
+        /* 25.6px */
+    }
+
+    .noticeHeadingFont {
+        color: #0A0A0A;
+
+        text-align: center;
+        font-family: Rowdies;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 44px;
+        /* 125% */
+    }
+
+    .h2 {
+        font-family: "Reddit Sans";
+        font-size: var(--Typography-Headline-H2-Size, 40px);
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        /* 48px */
+        letter-spacing: -0.32px;
+    }
+
+
+    .poster {
+        color: #CD7612;
+
+        text-align: center;
+        font-family: "Sigmar One";
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 128%;
+        /* 46.08px */
+    }
+
+    .posterText {
+        color: #5B3509;
+
+        text-align: center;
+        font-family: Rockwell;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 128%;
+        /* 40.96px */
+    }
+
+    .text_body_2x {
+        /* Text/Body 2X */
+        font-family: "Reddit Sans";
+        font-size: var(--Typography-Text-Body-2X-Size, 20px);
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        /* 30px */
+    }
+
+
+    .timeTablesHeading {
+        color: #000;
+        text-align: center;
+        font-family: "Red Rose";
+        font-size: var(--Typography-Headline-H2-Size, 40px);
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        /* 48px */
+        letter-spacing: -0.32px;
+    }
+
+    
+
+}
+
+
+@media (max-width: 767px) {
+
+     .text_body {
+        color: #2C2C2C;
+        text-align: center;
+        font-family: "Reddit Sans";
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100%;
+        /* 64px */
+    }
+
+    .text_body_recording {
+        color: #000;
+        text-align: center;
+        font-family: "Reddit Sans";
+        font-size: var(--Typography-Text-Body-Size, 16px);
+        font-style: normal;
+        font-weight: 400;
+        line-height: 128%;
+    }
+
+    .h1 {
+        font-family: "Reddit Sans";
+        font-size: var(--Typography-Headline-H1-Size, 48px);
+        font-style: normal;
+        font-weight: 700;
+        line-height: 112%;
+        /* 53.76px */
+        letter-spacing: -0.576px;
+    }
+
+    .h3 {
+        /* Headline/H3 */
+        font-family: "Reddit Sans";
+        font-size: var(--Typography-Headline-H3-Size, 24px);
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        /* 28.8px */
+    }
+
+    .h4 {
+        /* Headline/H4 */
+        color: #6F6F6F;
+        font-family: "Reddit Sans";
+        font-size: var(--Typography-Headline-H4-Size, 15px);
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        /* 19.2px */
+    }
+
+
+    .subtitle {
+        font-family: "Reddit Sans";
+        font-size: var(--Typography-Text-Subtitle-Size, 14px);
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        /* 21px */
+    }
+
+    .h8 {
+        /* Headline/H8 */
+        font-family: "Reddit Sans";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 50px;
+        /* 156.25% */
+    }
+
+    .h7 {
+        font-family: "Reddit Sans";
+        font-size: var(--Typography-Headline-H7-Size, 20px);
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        /* 24px */
+    }
+
+    .classRoomtext {
+        color: #FFF;
+        text-align: center;
+        font-family: "Rubik Dirt";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 50px;
+        /* 156.25% */
+    }
+
+
+    .announcementText {
+        color: #484848;
+        font-family: "Reddit Sans";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 128%;
+        /* 25.6px */
+    }
+
+    .noticeHeadingFont {
+        color: #0A0A0A;
+
+        text-align: center;
+        font-family: Rowdies;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 44px;
+        /* 125% */
+    }
+
+    .h2 {
+        font-family: "Reddit Sans";
+        font-size: var(--Typography-Headline-H2-Size, 40px);
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        /* 48px */
+        letter-spacing: -0.32px;
+    }
+
+
+    .poster {
+        color: #CD7612;
+
+        text-align: center;
+        font-family: "Sigmar One";
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 128%;
+        /* 46.08px */
+    }
+
+    .posterText {
+        color: #5B3509;
+
+        text-align: center;
+        font-family: Rockwell;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 128%;
+        /* 40.96px */
+    }
+
+    .text_body_2x {
+        /* Text/Body 2X */
+        font-family: "Reddit Sans";
+        font-size: var(--Typography-Text-Body-2X-Size, 20px);
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        /* 30px */
+    }
+
+
+    .timeTablesHeading {
+        color: #000;
+        text-align: center;
+        font-family: "Red Rose";
+        font-size: var(--Typography-Headline-H2-Size, 40px);
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        /* 48px */
+        letter-spacing: -0.32px;
+    }
+
+
+}

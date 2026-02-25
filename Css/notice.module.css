@@ -1,0 +1,271 @@
+@media(min-width: 1025px) {
+    .outcontainer {
+        width: 100%;
+        max-width: 70rem;
+        background-color: #A3A6FA;
+        box-sizing: border-box;
+        border-radius: 8px;
+        padding: 16px 17px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        align-items: flex-start;
+        gap: 10px;
+        position: relative;
+        overflow: hidden;
+        height: 100%;
+    }
+
+    .mainContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-self: stretch;
+        gap: 1rem;
+        width: 100%;
+        height: 100%;
+    }
+
+    .questionOutBox {
+        width: 100%;
+        height: 100%;
+        background-color: #FFF;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .Container {
+        display: flex;
+        /* width: 768.901px; */
+        /* padding: 96px 90px; */
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        position: relative;
+        /* justify-content: center; */
+        align-items: center;
+        overflow: scroll;
+    }
+
+    .imageStyle {
+        /* width: 100%; */
+        /* height: 500px; */
+        object-fit: contain;
+        border-radius: 16px;
+        position: relative;
+        width: 92%;
+    }
+
+    .contentOverlay {
+        position: absolute;
+        top: 23%;
+        left: 0;
+        width: 100%;
+        /* height: 100%; */
+        gap: 55px;
+        color: #000;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 90px;
+        gap: 55px;
+    }
+    .imageStyleMob{
+        display: none;
+    }
+    .readOutContainer {
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        width: 25%;
+        overflow: auto;
+    
+    }
+
+}
+
+/* @media (max-width: 1280px) and (min-width: 1024px) {
+    .imageStyle {
+
+        object-fit: contain;
+        border-radius: 16px;
+        position: relative;
+        width: 70%;
+    }
+
+} */
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .outcontainer {
+        width: 100%;
+        background-color: #A3A6FA;
+        box-sizing: border-box;
+        border-radius: 8px;
+        padding: 16px 17px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        position: relative;
+    }
+
+    .mainContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-self: stretch;
+        gap: 1rem;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .questionOutBox {
+        width: 100%;
+        height: 100%;
+        background-color: #FFF;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        gap: 2rem;
+    }
+
+    .Container {
+        display: flex;
+        width: 100%;
+        /* padding: 96px 90px; */
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        position: relative;
+    }
+
+    .imageStyle {
+        width: 90%;
+        height: 51vh;
+        /* object-fit: contain; */
+        border-radius: 16px;
+        position: relative;
+    }
+
+    .contentOverlay {
+        position: absolute;
+        top: 12%;
+        left: 0;
+        width: 100%;
+        /* height: 100%; */
+        gap: 55px;
+        color: #000;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 90px;
+        gap: 45px;
+    }
+
+    .readOutContainer {
+        width: 100%;
+    }
+    .imageStyleMob{
+        display: none;
+    }
+}
+
+
+@media (max-width: 767px) {
+    .outcontainer {
+        width: 98%;
+        background-color: #A3A6FA;
+        box-sizing: border-box;
+        border-radius: 8px;
+        padding: 7px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        position: relative;
+        margin: auto;
+    }
+
+    .mainContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-self: stretch;
+        gap: 1rem;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .questionOutBox {
+        width: 100%;
+        height: 100%;
+        background-color: #FFF;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        gap: 2rem;
+    }
+
+    .Container {
+        display: flex;
+        width: 100%;
+        /* padding: 96px 90px; */
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        position: relative;
+    }
+
+    .imageStyle {
+        display: none;
+    }
+
+    .contentOverlay {
+        position: absolute;
+        top: 17%;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        gap: 55px;
+        color: #000;
+        display: flex;
+        justify-content: center;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* padding: 10px 90px; */
+        gap: 45px;
+        width: 80%;
+    }
+
+    .readOutContainer {
+        width: 100%;
+    }
+    .imageStyleMob{
+        width: 91%;
+       
+        
+        position: relative;
+    }
+}

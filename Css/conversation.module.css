@@ -1,0 +1,305 @@
+.reportContainer {
+  /* border: 1px solid green; */
+  width: 100%;
+  display: flex;
+  max-width: 70.0625rem;
+  /* height: 39.75rem; */
+  padding: 1rem 1.0625rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.625rem;
+  flex-shrink: 0;
+  margin: auto;
+  border-radius: 1rem;
+  background: var(--Border-Focused, #a3a6fa);
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+
+.readOutContainer {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 26%;
+  overflow: auto;
+}
+
+.reportContent {
+  /* border: 1px solid red; */
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* align-items: center; */
+  gap: 1.25rem;
+  height: 100%;
+}
+
+.reportBoxContainer {
+  /* border: 1px solid green; */
+  display: flex;
+  width: 100%;
+  max-width: 52.9375rem;
+  /* padding: 1.6875rem 0.9375rem 1.125rem 0.9375rem; */
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.3125rem;
+  border-radius: 0.875rem;
+  background: #fff;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+}
+
+.reportBoxUp {
+  /* border: 1px solid black; */
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.reportBoxHead {
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  /* padding: 0.625rem 18.6875rem; */
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  padding: 0.6rem;
+  /* flex-shrink: 0; */
+  background: #ffd84b;
+  text-align: center;
+}
+
+.reportBoxHead h2 {
+  width: 100%;
+  max-width: 100%;
+}
+
+.reportAnswer {
+  /* border: 5px solid red ; */
+  display: flex;
+  width: 100%;
+  padding-top: 0.5rem;
+  max-width: 48.8125rem;
+  min-height: 21rem;
+  max-height: 21.875rem;
+  flex-direction: column;
+  /* align-items: center;
+    justify-content: center; */
+  overflow-x: scroll;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+.reportAnswer::-webkit-scrollbar {
+  display: none;
+}
+
+.reportBoxDown {
+  /* border: 1px solid blue; */
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.renderAnswerBox {
+  /* border: 1px solid green ; */
+  width: 100%;
+  max-width: 100%;
+}
+
+.renderAnswerA {
+  /* border: 1px solid red ; */
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.renderAnswerAText {
+  display: flex;
+  padding: 0.625rem;
+  padding-top: 0.6rem;
+  padding-bottom: 0.6rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 1rem;
+  background: #f8d72f;
+}
+
+.renderAnswerAText .h2text {
+  color: #484848;
+  font-family: "Reddit Sans";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 128%;
+}
+
+.renderAnswerB {
+  /* border: 1px solid blue ; */
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.renderAnswerBText {
+  display: flex;
+  padding: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  border-radius: 1rem;
+  background: #b1e9ff;
+}
+
+.renderAnswerBText .h2text {
+  color: #484848;
+  font-family: "Reddit Sans";
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 128%;
+}
+
+
+@media (max-width: 1280px) and (min-width: 1024px) {
+  .reportAnswer {
+    /* border: 5px solid red ; */
+    display: flex;
+    width: 100%;
+    padding-top: 0.5rem;
+    max-width: 48.8125rem;
+    min-height: 16rem;
+    max-height: 16rem;
+    flex-direction: column;
+   
+    overflow-x: scroll;
+    gap: 0.5rem;
+    flex-shrink: 0;
+  }
+
+}
+
+
+/* media querry */
+/* ipad responsive */
+@media screen and (min-width: 766px) and (max-width: 1024px) {
+  .readOutContainer {
+    width: 100%;
+  }
+
+  .reportContainer {
+    /* border: 1px solid green; */
+    width: 100%;
+    max-width: 43.75rem;
+    padding: 1rem;
+    flex-direction: column;
+    display: flex;
+    flex-shrink: 0;
+    margin: auto;
+    align-items: center;
+    gap: 1.25rem;
+  }
+
+  .reportContent {
+    /* border: 1px solid red; */
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 1.25rem;
+  }
+
+  .reportAnswer {
+    /* border: 5px solid red; */
+    display: flex;
+    width: 100%;
+    padding-top: 0.5rem;
+    max-width: 39.8125rem;
+    min-height: 27.875rem;
+    max-height: 27.875rem;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: scroll;
+    gap: 0.5rem;
+    flex-shrink: 0;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 760px) {
+  .reportContainer {
+    /* border: 1px solid green; */
+    width: 100%;
+    max-width: 21.55rem;
+    flex-direction: column;
+    display: flex;
+    flex-shrink: 0;
+    margin: auto;
+    align-items: center;
+    gap: 1.25rem;
+    padding: 0.4375rem 0.5rem 0.4375rem 0.4375rem;
+    align-self: stretch;
+  }
+
+  .reportContent {
+    /* border: 1px solid red; */
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 1.25rem;
+  }
+
+  .reportBoxContainer {
+    /* border: 1px solid green; */
+    display: flex;
+    width: 100%;
+    max-width: 52.9375rem;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 1.3125rem;
+    border-radius: 0.875rem;
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .reportAnswer {
+    /* border: 5px solid red; */
+    display: flex;
+    width: 100%;
+    max-width: 18.375rem;
+    ;
+    padding-top: 0.5rem;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    overflow-x: scroll;
+    gap: 0.5rem;
+    flex-shrink: 0;
+  }
+}

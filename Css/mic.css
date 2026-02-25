@@ -1,0 +1,343 @@
+@media(min-width: 1024px) {
+  .mic-container {
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+
+  .playmic-buttons {
+
+    width: 60px;
+    height: 60px;
+    background-color: #835DF1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Ring styles */
+  .ring {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #aab6f5;
+    border-radius: 50%;
+    animation: pulse 2s ease-out infinite;
+    opacity: 0.5;
+  }
+
+  .ring1 {
+    animation-delay: 0s;
+  }
+
+  .ring2 {
+    animation-delay: 0.3s;
+  }
+
+  .ring3 {
+    animation-delay: 0.6s;
+  }
+
+  .ring4 {
+    animation-delay: 0.9s;
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      opacity: 0.5;
+    }
+
+    100% {
+      transform: scale(2);
+      opacity: 0;
+    }
+  }
+
+  /* Mic button */
+  .mic-button {
+    position: relative;
+    width: 50px;
+    height: 50px;
+    background-color: #7e5bef;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Stop icon */
+  .stop-icon {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 4px;
+  }
+
+  .pause-icon {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 16px solid white;
+  }
+
+  .play-min1 {
+    width: 5px;
+    height: 15px;
+    background-color: white;
+  }
+
+  .play-min2 {
+    width: 5px;
+    height: 15px;
+    background-color: white;
+  }
+
+  .play-min {
+    display: flex;
+    gap: 2px;
+  }
+
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+
+  .mic-container {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+
+  .playmic-buttons {
+
+    width: 44px;
+    height: 44px;
+    background-color: #835DF1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Ring styles */
+  .ring {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #aab6f5;
+    border-radius: 50%;
+    animation: pulse 2s ease-out infinite;
+    opacity: 0.5;
+  }
+
+  .ring1 {
+    animation-delay: 0s;
+  }
+
+  .ring2 {
+    animation-delay: 0.3s;
+  }
+
+  .ring3 {
+    animation-delay: 0.6s;
+  }
+
+  .ring4 {
+    animation-delay: 0.9s;
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      opacity: 0.5;
+    }
+
+    100% {
+      transform: scale(2);
+      opacity: 0;
+    }
+  }
+
+  /* Mic button */
+  .mic-button {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color: #7e5bef;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Stop icon */
+  .stop-icon {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 4px;
+  }
+
+  .pause-icon {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 16px solid white;
+  }
+
+  .play-min1 {
+    width: 5px;
+    height: 15px;
+    background-color: white;
+  }
+
+  .play-min2 {
+    width: 5px;
+    height: 15px;
+    background-color: white;
+  }
+
+  .play-min {
+    display: flex;
+    gap: 2px;
+  }
+
+}
+
+
+@media (max-width: 767px) {
+  
+  .mic-container {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+
+
+  .playmic-buttons {
+
+    width: 44px;
+    height: 44px;
+    background-color: #835DF1;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Ring styles */
+  .ring {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #aab6f5;
+    border-radius: 50%;
+    animation: pulse 2s ease-out infinite;
+    opacity: 0.5;
+  }
+
+  .ring1 {
+    animation-delay: 0s;
+  }
+
+  .ring2 {
+    animation-delay: 0.3s;
+  }
+
+  .ring3 {
+    animation-delay: 0.6s;
+  }
+
+  .ring4 {
+    animation-delay: 0.9s;
+  }
+
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+      opacity: 0.5;
+    }
+
+    100% {
+      transform: scale(2);
+      opacity: 0;
+    }
+  }
+
+  /* Mic button */
+  .mic-button {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color: #7e5bef;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 10;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Stop icon */
+  .stop-icon {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 4px;
+  }
+
+  .pause-icon {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 16px solid white;
+  }
+
+  .play-min1 {
+    width: 5px;
+    height: 15px;
+    background-color: white;
+  }
+
+  .play-min2 {
+    width: 5px;
+    height: 15px;
+    background-color: white;
+  }
+
+  .play-min {
+    display: flex;
+    gap: 2px;
+  }
+}

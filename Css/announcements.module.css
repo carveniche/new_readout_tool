@@ -1,0 +1,362 @@
+@media(min-width: 1024px) {
+    .image {
+        width: 95.994px;
+        height: 89.94px;
+        transform: rotate(-7.361deg);
+        flex-shrink: 0;
+    }
+
+    .outcontainer {
+        width: 100%;
+        max-width: 70.0625rem;
+        margin: auto;
+        background-color: #A3A6FA;
+        box-sizing: border-box;
+        border-radius: 8px;
+        padding: 16px 17px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .mainContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-self: stretch;
+        gap: 1rem;
+        width: 100%;
+        height: 100%;
+    }
+
+    .questionOutBox {
+        width: 100%;
+        height: 100%;
+        background-color: #FFF;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+
+    .Container {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-top: 15px;
+        height: 100%;
+    }
+
+    .headingBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .heading {
+        display: flex;
+        /* width: 287px; */
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 16px;
+        background: var(--Purple, #835DF1);
+        color: white;
+    }
+
+    .messageBox {
+        display: flex;
+        height: 50%;
+        overflow: auto;
+        justify-content: center;
+        align-items: center;
+        border-color: var(--Surface-Light, #E7E8FE);
+        border-radius: 16px;
+
+        /* padding: 20px; */
+        /* padding-bottom: 20px; */
+        align-self: stretch;
+        background: var(--Surface-Light, #E7E8FE);
+    }
+
+    .message {
+        padding: 20px;
+    }
+
+    .announcementText {
+        color: #484848;
+        font-family: "Reddit Sans";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 128%;
+        /* 25.6px */
+    }
+
+    .announcementHead {
+        color: #FFF;
+        text-align: center;
+        font-family: "Reddit Sans";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 50px;
+        /* 156.25% */
+    }
+
+    .readOutContainer {
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        width: 26%;
+        overflow: auto;
+
+    }
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .image {
+        width: 95.994px;
+        height: 89.94px;
+        transform: rotate(-7.361deg);
+        flex-shrink: 0;
+    }
+
+    .outcontainer {
+        width: 100%;
+        max-width: 70.0625rem;
+        margin: auto;
+        background-color: #A3A6FA;
+        box-sizing: border-box;
+        border-radius: 8px;
+        padding: 16px 17px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        /* height: 100%; */
+    }
+
+    .mainContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-self: stretch;
+        gap: 1rem;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .questionOutBox {
+        width: 100%;
+        height: 100%;
+        background-color: #FFF;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        gap: 3rem;
+    }
+
+    .Container {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-top: 15px;
+        height: 100%;
+    }
+
+    .headingBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .heading {
+        display: flex;
+        /* width: 287px; */
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 16px;
+        background: var(--Purple, #835DF1);
+        color: white;
+    }
+
+    .messageBox {
+        display: flex;
+        min-height: 300px;
+        max-height: 300px;
+        overflow: auto;
+        justify-content: center;
+        align-items: center;
+        border-color: var(--Surface-Light, #E7E8FE);
+        border-radius: 16px;
+
+        /* padding: 20px; */
+        /* padding-bottom: 20px; */
+        align-self: stretch;
+        background: var(--Surface-Light, #E7E8FE);
+    }
+
+    .message {
+        padding: 20px;
+    }
+
+    .readOutContainer {
+        width: 100%;
+    }
+
+    .announcementText {
+        color: #484848;
+        font-family: "Reddit Sans";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 128%;
+        /* 25.6px */
+    }
+
+    .announcementHead {
+        color: #FFF;
+        text-align: center;
+        font-family: "Reddit Sans";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 50px;
+        /* 156.25% */
+    }
+
+}
+
+
+@media (max-width: 767px) {
+    .image {
+        width: 70px;
+        height: 70.94px;
+        transform: rotate(-7.361deg);
+        flex-shrink: 0;
+    }
+
+    .outcontainer {
+        width: 98%;
+        max-width: 70.0625rem;
+        margin: auto;
+        background-color: #A3A6FA;
+        box-sizing: border-box;
+        border-radius: 8px;
+        padding: 7px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        /* height: 100%; */
+    }
+
+    .mainContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-self: stretch;
+        gap: 1rem;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .questionOutBox {
+        width: 100%;
+        height: 100%;
+        background-color: #FFF;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        gap: 1.5rem;
+    }
+
+    .Container {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-top: 15px;
+        height: 100%;
+        /* gap: 20px; */
+    }
+
+    .headingBox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .heading {
+        display: flex;
+        /* width: 287px; */
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 16px;
+        background: var(--Purple, #835DF1);
+        color: white;
+    }
+
+    .messageBox {
+
+        min-height: 100%;
+        max-height: 264px;
+        overflow: auto;
+        border-color: var(--Surface-Light, #E7E8FE);
+        align-self: stretch;
+        background: var(--Surface-Light, #E7E8FE);
+    }
+
+    .message {
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+
+    .readOutContainer {
+        width: 100%;
+    }
+
+    .announcementText {
+        color: #484848;
+
+        /* Text/Caption */
+        font-family: "Reddit Sans";
+        font-size: var(--Typography-Text-Caption-Size, 12px);
+        font-style: normal;
+        font-weight: 400;
+        line-height: 144%;
+        /* 17.28px */
+    }
+
+    .announcementHead {
+        color: #FFF;
+        text-align: center;
+        font-family: "Reddit Sans";
+        font-size: var(--Typography-Headline-H4-Size, 16px);
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+    }
+
+}

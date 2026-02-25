@@ -1,0 +1,225 @@
+.readOutContainer {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 25%;
+    overflow: auto;
+
+}
+.reportContainer{
+    /* border: 1px solid green; */
+    width: 100%;
+    display: flex;
+    max-width: 70.0625rem;
+    /* height: 39.75rem; */
+    padding: 1rem 1.0625rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.625rem;
+    flex-shrink: 0;
+    margin: auto;
+    border-radius: 1rem;
+    background: var(--Border-Focused, #A3A6FA);
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+.menuParentContainer{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+    gap: 1.25rem;
+    height: 100%;
+}
+.menuRightContainer {
+    /* border: 1px solid blue;                 */
+    width: 100%;                           
+    /* max-width: 52.9375rem;                  */
+    /* height: 37.75rem;                       */
+    height: 100%;
+    border-radius: 0.875rem;               
+    background:url('https://d3g74fig38xwgn.cloudfront.net/readout-activity/Background-images/Report.jpg');
+    background-size: cover;   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;     
+    position: relative;           
+}
+.menuTextContent{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    max-width: 35.625rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.875rem;
+    max-height: 65%;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+    overflow: scroll;
+    padding-top: 1rem;
+}
+.menuTextContent::-webkit-scrollbar {
+  display: none;
+}
+.headingText{
+   color: #773701;
+   font-family: "DM Serif Display";
+   font-size: 4rem;
+   font-style: normal;
+   font-weight: 400;
+   /* line-height: 112%; 4.48rem */
+   letter-spacing: -0.048rem;
+   /* border: 1px solid red; */
+   width: 100%;
+   max-width: 100%;
+   text-align: center;
+}
+h3{
+   /* border: 1px solid red; */
+}
+
+/* media querry start */
+@media screen and (min-width: 760px) and (max-width: 1024px){
+    .readOutContainer{
+        width: 100%;
+    }
+.reportContainer{
+    /* border: 1px solid green; */
+    width: 100%;
+    display: flex;
+    max-width: 43.0625rem;
+    /* height: 39.75rem; */
+    padding: 1rem 1.0625rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.625rem;
+    flex-shrink: 0;
+    margin: auto;
+    border-radius: 1rem;
+    background: var(--Border-Focused, #A3A6FA);
+}
+.menuParentContainer{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+    gap: 1.25rem;
+    flex-direction: column;
+}
+.menuTextContent{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    max-width: 28.625rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.875rem;
+    min-height: 80%;
+    max-height: 80%;
+    justify-content: start;
+    align-items: center;
+    padding: 0.5rem;
+    overflow: scroll;
+    /* padding-top: 1rem; */
+}
+.headingText{
+color: #773701;
+font-family: "DM Serif Display";
+font-size: 3.73019rem;
+font-style: normal;
+font-weight: 400;
+line-height: 112%; /* 4.17775rem */
+letter-spacing: -0.04475rem;
+margin: 0;
+}
+.mobileText{
+color: #212121;
+font-family: "Reddit Sans";
+font-size: 1.86506rem !important;
+font-style: normal;
+font-weight: 700;
+line-height: 2.91419rem;
+ } /* 156.25% */
+/* .menuRightContainer { */
+    /* border: 1px solid blue;                 */
+    /* width: 100%;                           
+    max-width: 41.9375rem;                 
+    height: 37.75rem;                      
+    border-radius: 0.875rem;               
+    background:url('https://d3g74fig38xwgn.cloudfront.net/readout-activity/Background-images/Report.jpg');
+    background-size: contain;   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;     
+    position: relative;           
+} */
+}
+@media screen and (min-width: 370px) and (max-width: 760px){
+    .readOutContainer{
+        width: 100%;
+    }
+.reportContainer{
+    /* border: 1px solid green; */
+    width: 100%;
+    display: flex;
+    max-width:90%;
+    /* height: 39.75rem; */
+    padding: 1rem 1.0625rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.625rem;
+    flex-shrink: 0;
+    margin: auto;
+    border-radius: 1rem;
+    background: var(--Border-Focused, #A3A6FA);
+}
+.menuParentContainer{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+    gap: 1.25rem;
+    flex-direction: column;
+}
+.headingText{
+color: #773701;
+font-family: "DM Serif Display";
+font-size: 1.87625rem;
+font-style: normal;
+font-weight: 400;
+line-height: 112%; /* 2.10138rem */
+letter-spacing: -0.0225rem;
+}
+.mobileText{
+color: #212121;
+font-family: "Reddit Sans";
+font-size: 0.875rem !important;
+font-style: normal;
+font-weight: 700;
+line-height: 40px !important;
+}
+.menuTextContent{
+    /* border: 1px solid red; */
+    width: 100%;
+    display: flex;
+    max-width: 12.625rem;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.875rem;
+    min-height: 80%;
+    max-height: 80%;
+    justify-content: start;
+    align-items: center;
+    padding: 0.5rem;
+    overflow: scroll;
+    /* padding-top: 1rem; */
+}
+}

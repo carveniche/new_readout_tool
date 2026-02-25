@@ -1,0 +1,125 @@
+/* Container for icon and feedback */
+.container {
+
+    position: absolute;
+    right: 20px;
+    bottom: 15%;
+    z-index: 1000;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    flex-direction: row-reverse;
+    /* Icon stays at far right */
+}
+
+/* The icon itself */
+.iconContainer {
+    cursor: pointer;
+    z-index: 2;
+}
+
+/* The animated feedback bubble */
+.feedbackBox {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+    max-height: 0;
+    opacity: 0;
+    transform: scale(0.5);
+    transform-origin: bottom right;
+    transition: all 0.3s ease;
+    margin-bottom: 10px;
+    background-color: white;
+    width: 80%;
+}
+
+/* When open, animate it */
+.open {
+    max-height: 200px;
+    /* Adjust as needed */
+    opacity: 1;
+    transform: scale(1);
+    overflow-y: auto;
+}
+
+
+.feedbackContent {
+    background-color: white;
+    color: black;
+    padding: 12px 16px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+    /* max-width: 250px; */
+    width:100%;
+    transition: opacity 0.3s ease;
+}
+
+.closeButtonContainer {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 10px;
+
+
+}
+
+.closeButton {
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    cursor: pointer;
+    color: #000;
+    transition: color 0.2s;
+    /* border: 1px solid rgb(219, 74, 74); */
+    border-radius: 50%;
+    /* background-color: white; */
+}
+
+.closeButton:hover {
+    /* background-color: #c0ec7a; */
+    /* border-color:  rgb(67, 201, 40); */
+    color: white;
+}
+
+
+
+
+.feedbackBox::-webkit-scrollbar {
+    width: 6px;
+}
+
+
+
+.feedbackBox::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 10px;
+}
+
+.feedbackBox::-webkit-scrollbar-thumb:hover {
+    background-color: black;
+}
+
+/* Optional: for Firefox */
+.feedbackBox {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(0, 0, 0, 0.3) transparent;
+}
+
+@media (max-width: 767px) {
+    .container {
+
+    position: absolute;
+    right: 20px;
+    bottom: 20%;
+    z-index: 1000;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    flex-direction: row-reverse;
+    /* Icon stays at far right */
+    }
+}

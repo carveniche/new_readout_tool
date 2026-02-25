@@ -1,0 +1,342 @@
+@media(min-width: 1280px) {
+    .readOutContainer{
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        width: 26%;
+        overflow: auto;
+    }
+    .questionBox {
+        display: flex;
+        flex-direction: column;
+        /* min-width: 847px; */
+        width: 100%;
+        height: 100%;
+        padding: 10px 10px;
+        align-items: center;
+        justify-content: center;
+        gap: 61px;
+        border-radius: 14px;
+        background: #FFF;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .mainContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-self: stretch;
+        gap: 1rem;
+        width: 100%;
+        height: 100%;
+    }
+
+    .outcontainer {
+        width: 100%;
+        max-width: 70.0625rem;
+        margin: auto;
+        background-color: #A3A6FA;
+        box-sizing: border-box;
+        border-radius: 8px;
+        padding: 16px 17px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        position: relative;
+        height: 100%;
+    }
+
+    .ImageContainer {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .Image {
+        width: 70%;
+        position: relative;
+
+    }
+
+    .mobImage {
+        display: none;
+    }
+
+    .classRoomtext {
+        color: #FFF;
+        text-align: center;
+        font-family: "Rubik Dirt";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 50px;
+        /* 156.25% */
+    }
+    .classRoomtextTrans{
+        text-align: center;
+        font-family: "Rubik Dirt";
+        font-size: 27px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 50px;
+    }
+}
+
+@media (max-width: 1280px) and (min-width: 1024px) {
+    .questionBox {
+        display: flex;
+        flex-direction: column;
+        /* min-width: 847px; */
+        width: 100%;
+        height: 100%;
+        padding: 10px 10px;
+        align-items: center;
+        justify-content: center;
+        gap: 61px;
+        border-radius: 14px;
+        background: #FFF;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .mainContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-self: stretch;
+        gap: 1rem;
+        width: 100%;
+        height: 100%;
+    }
+
+    .outcontainer {
+        width: 100%;
+        max-width: 70.0625rem;
+        margin: auto;
+        background-color: #A3A6FA;
+        box-sizing: border-box;
+        border-radius: 8px;
+        padding: 16px 17px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        position: relative;
+    }
+
+    .ImageContainer {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .Image {
+        width: 50%;
+        position: relative;
+
+    }
+
+    .mobImage {
+        display: none;
+    }
+
+    .classRoomtext {
+        color: #FFF;
+        text-align: center;
+        font-family: "Rubik Dirt";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 50px;
+        /* 156.25% */
+    }
+    .classRoomtextTrans{
+        text-align: center;
+        font-family: "Rubik Dirt";
+        font-size: 27px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 50px;
+    }
+    .readOutContainer {
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        width: 26%;
+        overflow: auto;
+    }
+}
+
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .questionBox {
+        display: flex;
+        flex-direction: column;
+
+        /* width: 100%; */
+        height: 100%;
+        padding: 10px 10px;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        border-radius: 14px;
+        background: #FFF;
+        position: relative;
+
+    }
+
+    .mainContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-self: stretch;
+        gap: 1rem;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .outcontainer {
+        width: 100%;
+        margin: auto;
+        background-color: #A3A6FA;
+        box-sizing: border-box;
+        border-radius: 8px;
+        padding: 16px 17px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+
+    }
+
+    .ImageContainer {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .Image {
+        width: 70%;
+        position: relative;
+
+    }
+
+    .readOutContainer {
+        width: 100%;
+    }
+
+    .mobImage {
+        display: none;
+    }
+
+    .classRoomtext {
+        color: #FFF;
+        text-align: center;
+        font-family: "Rubik Dirt";
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 50px;
+        /* 156.25% */
+    }
+    .classRoomtextTrans{
+        text-align: center;
+        font-family: "Rubik Dirt";
+        font-size: 27px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 50px;
+    }
+}
+
+
+@media (max-width: 767px) {
+
+    .questionBox {
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        align-items: center;
+        justify-content: center;
+        padding-top: 65px;
+        gap: 48px;
+        border-radius: 14px;
+        background: #FFF;
+        position: relative;
+        width: 100%;
+    }
+
+    .mainContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-self: stretch;
+        gap: 1rem;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .outcontainer {
+        width: 98%;
+        max-width: 70.0625rem;
+        margin: auto;
+        background-color: #A3A6FA;
+        box-sizing: border-box;
+        border-radius: 8px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .ImageContainer {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .Image {
+        display: none;
+
+    }
+
+    .readOutContainer {
+        width: 100%;
+    }
+
+    .mobImage {
+        width: 90%;
+        position: relative;
+    }
+
+    .classRoomtext {
+        color: #FFF;
+        text-align: center;
+        font-family: "Rubik Dirt";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 50px;
+    }
+    .classRoomtextTrans{
+        text-align: center;
+        font-family: "Rubik Dirt";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 50px;
+    }
+}

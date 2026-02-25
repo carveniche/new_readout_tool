@@ -1,0 +1,51 @@
+/* ✅ Tablet: 768px to 1024px */
+@media (max-width: 768px) {
+    .mainContainer {
+        display: flex;
+        /* width: 100%; */
+        gap: 40%;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 14px;
+        background: var(--Surface-Light, #E7E8FE);
+        padding: 8px;
+    }
+
+    .buttons {
+        display: flex;
+        width: 131px;
+        height:45px;
+        border-radius: 999px;
+        border: 1px solid #141414;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+}
+
+
+@media (min-width: 767px) {
+    .mainContainer {
+        display: flex;
+        width: 50%;
+        gap: 10%;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 14px;
+        background: var(--Surface-Light, #E7E8FE);
+        padding: 10px 14px;
+    }
+
+
+    .buttons {
+        display: flex;
+        width: 150px;
+        height:50px;
+        border-radius: 999px;
+        border: 1px solid #141414;
+        justify-content: center;
+        align-items: center;
+        /* flex-shrink: 0; */
+        cursor: pointer;
+    }
+}

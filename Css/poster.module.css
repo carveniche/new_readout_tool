@@ -1,0 +1,348 @@
+@media(min-width: 1024px) {
+    .posterHead {
+        color: #CD7612;
+        text-align: center;
+        font-family: "Sigmar One";
+        font-size: 2.25rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 128%;
+        /* 2.88rem */
+    }
+
+    .posterText {
+        color: #5B3509;
+        text-align: center;
+        font-family: Rockwell;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 128%;
+        /* 2.56rem */
+
+    }
+
+    .imageStyle {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+        z-index: 0;
+    }
+
+    .outcontainer {
+        width: 100%;
+        max-width: 70.0625rem;
+        margin: auto;
+        background-color: #A3A6FA;
+        box-sizing: border-box;
+        border-radius: 8px;
+        padding: 16px 17px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        height: 100%;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .mainContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-self: stretch;
+        gap: 1rem;
+        width: 100%;
+        height: 100%;
+    }
+
+    .questionOutBox {
+        width: 100%;
+        background-color: #FFF;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        background-image: url("https://d3g74fig38xwgn.cloudfront.net/readout-activity/Background-images/Postes.svg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100%;
+    }
+
+    .Container {
+        display: flex;
+        flex-direction: column;
+        gap: 10%;
+        width: 70%;
+        height: 70%;
+    }
+
+    .Text {
+        width: 100%;
+        overflow-y: scroll;
+    }
+
+    ::-webkit-scrollbar {
+        width: 3px;
+        /* height: 3px; */
+
+    }
+
+
+
+    /* Scrollbar thumb (the part you drag) */
+    ::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 4px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+
+    .readOutContainer {
+        display: flex;
+        justify-content: center;
+        height: 100%;
+        width: 25%;
+        overflow: auto;
+
+    }
+
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .Text {
+        width: 100%;
+        overflow-y: scroll;
+    }
+
+    .posterHead {
+        color: #CD7612;
+        text-align: center;
+        font-family: "Sigmar One";
+        font-size: 2.25rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 128%;
+
+    }
+
+    .posterText {
+        color: #5B3509;
+        text-align: center;
+        font-family: "Rockwell";
+        font-size: 1.75rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 128%;
+    }
+
+    .imageStyle {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+        z-index: 0;
+    }
+
+    .outcontainer {
+        width: 100%;
+        max-width: 70.0625rem;
+        margin: auto;
+        background-color: #A3A6FA;
+        box-sizing: border-box;
+        border-radius: 8px;
+        padding: 16px 17px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        /* height: 100%; */
+        position: relative;
+    }
+
+    .mainContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-self: stretch;
+        gap: 1rem;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .questionOutBox {
+        width: 100%;
+        background-color: #FFF;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        background-image: url("https://d3g74fig38xwgn.cloudfront.net/readout-activity/Background-images/Postes.svg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 40rem;
+    }
+
+    .Container {
+        display: flex;
+        flex-direction: column;
+        gap: 20%;
+        width: 70%;
+        height: 70%;
+        justify-content: center;
+    }
+
+    .readOutContainer {
+        width: 100%;
+    }
+
+    ::-webkit-scrollbar {
+        width: 3px;
+        height: 3px;
+
+    }
+
+
+
+    /* Scrollbar thumb (the part you drag) */
+    ::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 4px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+}
+
+@media (max-width: 767px) {
+    .imageStyle {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+        z-index: 0;
+    }
+
+    .outcontainer {
+        width: 98%;
+        max-width: 70.0625rem;
+        margin: auto;
+        background-color: #A3A6FA;
+        box-sizing: border-box;
+        border-radius: 8px;
+        padding: 7px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        /* height: 100%; */
+        position: relative;
+    }
+
+    .mainContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-self: stretch;
+        gap: 1rem;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .questionOutBox {
+        width: 100%;
+        background-color: #FFF;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 15px;
+        align-items: center;
+        position: relative;
+        background-image: url("https://d3g74fig38xwgn.cloudfront.net/readout-activity/PosterBackGroundImage.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 31rem;
+    }
+
+    .Container {
+        display: flex;
+        flex-direction: column;
+        gap: 10%;
+        width: 90%;
+        height: 70%;
+        /* justify-content: center; */
+    }
+
+    .readOutContainer {
+        width: 100%;
+    }
+
+    .posterHead {
+        color: #CD7612;
+        text-align: center;
+        font-family: "Sigmar One";
+        font-size: 1.25rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 128%;
+        /* 1.6rem */
+    }
+
+    .posterText {
+        color: #5B3509;
+        text-align: center;
+        font-family: "Rockwell";
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 128%;
+        /* 1.28rem */
+
+    }
+
+    .Text {
+        width: 100%;
+        overflow-y: scroll;
+    }
+
+    /* Scrollbar container */
+    ::-webkit-scrollbar {
+        width: 3px;
+        height: 3px;
+
+    }
+
+
+
+    /* Scrollbar thumb (the part you drag) */
+    ::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 4px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+
+}

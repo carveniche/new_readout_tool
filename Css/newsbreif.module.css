@@ -1,0 +1,520 @@
+@media(min-width: 1024px) {
+    .mainStoryContent {
+        /* border: 2px solid red; */
+        width: 100%;
+        max-width: 70.0625rem;
+        padding: 1rem 1.0625rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.625rem;
+        border-radius: 1rem;
+        background: var(--Border-Focused, #A3A6FA);
+        margin: auto;
+    }
+
+    .firstContainer {
+        width: 100%;
+        /* border: 2px solid green; */
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-self: stretch;
+        gap: 0.925rem;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .storyContainer {
+        display: flex;
+        width: 100%;
+        max-width: 51.9375rem;
+        padding: 1.8125rem 0.9375rem 0.875rem 0.9375rem;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 1.25rem;
+        border-radius: 0.875rem;
+        background: #FFF7ED;
+    }
+
+    .storyImageContainer {
+        width: 100%;
+        max-width: 49.3125rem;
+        max-height: 21.5rem;
+        overflow: scroll;
+    }
+
+    .storyImageContainer::-webkit-scrollbar {
+        display: none;
+    }
+
+    .storyImageSeperateContainer {
+        /* border: 2px solid blue; */
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-self: stretch;
+    }
+
+    .storyContainerStart {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .storyHeadingDiv {
+        display: flex;
+        padding: 1.2rem;
+        justify-content: center;
+        align-items: center;
+        gap: 0.625rem;
+        align-self: stretch;
+        border-radius: 0.625rem;
+        background: #D32020;
+        width: 100%;
+        max-width: fit-content;
+        color: white;
+    }
+
+    .storyHeadingDiv p {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+
+    .topHeadingContainer {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .topHeading {
+        color: #000;
+
+        text-align: center;
+        font-family: "Reddit Sans";
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: bolder;
+        line-height: 0.125rem;
+    }
+
+    .storyAnswerDiv {
+        /* border: 1px solid orange; */
+        width: 100%;
+        max-width: 100%;
+        /* overflow-y: auto;  */
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
+
+    .storyAnswerDiv p {
+        color: #000;
+        font-family: "Reddit Sans";
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 128%;
+    }
+
+    .storyImageRectangelCont {
+        /* border: 1px solid pink; */
+        max-width: 21.9375rem;
+        width: 100%;
+        height: auto;
+        border-radius: 0.625rem;
+        background: #D9D9D9;
+        float: right;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1.2rem;
+    }
+
+    .storyImageRectangelCont img {
+        width: 100%;
+        height: 100%;
+        border-radius: 0.625rem;
+        object-fit: fill;
+    }
+
+    .newsBreifHead {
+        color: white;
+        font-family: "Reddit Sans";
+        font-size: var(--Typography-Headline-H3-Size, 24px);
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        /* 28.8px */
+    }
+
+    .newsBreifText {
+        color: #484848;
+        font-family: "Reddit Sans";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 128%;
+        /* 23.04px */
+    }
+    .readOutContainer {
+        width: 24%;
+    }
+
+}
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .newsBreifHead {
+        color: white;
+        font-family: "Reddit Sans";
+        font-size: var(--Typography-Headline-H3-Size, 24px);
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        /* 28.8px */
+    }
+
+    .newsBreifText {
+        color: #000;
+        font-family: "Reddit Sans";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 128%;
+        /* 23.04px */
+    }
+
+    .mainStoryContent {
+        /* border: 2px solid red; */
+        /* width: 100%; */
+        max-width: 70.0625rem;
+        padding: 1rem 1.0625rem;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.625rem;
+        border-radius: 1rem;
+        background: var(--Border-Focused, #A3A6FA);
+        margin: auto;
+    }
+
+    .firstContainer {
+        width: 100%;
+        /* border: 2px solid green; */
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-self: stretch;
+        gap: 0.925rem;
+        flex-direction: column;
+    }
+
+    .storyContainer {
+        display: flex;
+        /* width: 100%; */
+        max-width: 51.9375rem;
+        padding: 1.8125rem 0.9375rem 0.875rem 0.9375rem;
+        flex-direction: column;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 5rem;
+        border-radius: 0.875rem;
+        background: #FFF7ED;
+        position: relative;
+    }
+
+    .storyImageContainer {
+        width: 100%;
+        max-width: 49.3125rem;
+        max-height: 21.5rem;
+        overflow: scroll;
+    }
+
+    .storyImageContainer::-webkit-scrollbar {
+        display: none;
+    }
+
+    .storyImageSeperateContainer {
+        /* border: 2px solid blue; */
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-self: stretch;
+    }
+
+    .storyContainerStart {
+        max-width: 100%;
+        width: 100%;
+    }
+
+    .storyHeadingDiv {
+        display: flex;
+        padding: 1.2rem;
+        justify-content: center;
+        align-items: center;
+        gap: 0.625rem;
+        align-self: stretch;
+        border-radius: 0.625rem;
+        background: #D32020;
+        /* width: 100%; */
+        max-width: fit-content;
+        color: white;
+        text-align: center;
+    }
+
+    .storyHeadingDiv p {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+
+    .topHeadingContainer {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .topHeading {
+        color: #000;
+
+        text-align: center;
+        font-family: "Reddit Sans";
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: bolder;
+        line-height: 0.125rem;
+    }
+
+    .storyAnswerDiv {
+        /* border: 1px solid orange; */
+        width: 100%;
+        max-width: 100%;
+        /* overflow-y: auto;  */
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
+
+    .storyAnswerDiv p {
+        color: #000;
+
+        font-family: "Reddit Sans";
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 128%;
+        /* 1.44rem */
+    }
+
+    .storyImageRectangelCont {
+        /* border: 1px solid pink; */
+        max-width: 17rem;
+        width: 100%;
+        height: auto;
+        border-radius: 0.625rem;
+        background: #D9D9D9;
+        float: right;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1.2rem;
+    }
+
+    .storyImageRectangelCont img {
+        width: 100%;
+        height: 100%;
+        border-radius: 0.625rem;
+        object-fit: fill;
+    }
+
+    .readOutContainer {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .mainStoryContent {
+
+
+        width: 94%;
+        padding: 10px;
+        flex-direction: column;
+        gap: 0.625rem;
+        border-radius: 1rem;
+        background: var(--Border-Focused, #A3A6FA);
+        margin: auto;
+    }
+
+    .firstContainer {
+        width: 100%;
+        /* border: 2px solid green; */
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-self: stretch;
+        gap: 0.925rem;
+        flex-direction: column;
+    }
+
+    .storyContainer {
+        display: flex;
+        width: 100%;
+
+        /* padding: 7px; */
+        flex-direction: column;
+
+        justify-content: center;
+        align-items: center;
+        gap: 5rem;
+        border-radius: 0.875rem;
+        background: #FFF7ED;
+        height: 100%;
+        position: relative;
+    }
+
+    .storyImageContainer {
+        width: 100%;
+
+        max-height: 21.5rem;
+        overflow: scroll;
+
+    }
+
+    .storyImageContainer::-webkit-scrollbar {
+        display: none;
+    }
+
+    .storyImageSeperateContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-self: stretch;
+    }
+
+    .storyContainerStart {
+        max-width: 100%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .storyHeadingDiv {
+        display: flex;
+        /* padding-top: 10px; */
+        padding: 5px;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        /* gap: 0.625rem; */
+        align-self: stretch;
+        border-radius: 0.625rem;
+        background: #D32020;
+        max-width: fit-content;
+        color: white;
+        text-align: center;
+
+    }
+
+    .storyHeadingDiv div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #D32020;
+        max-width: fit-content;
+        color: white;
+        text-align: center;
+    }
+
+    .topHeadingContainer {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .topHeading {
+        color: #000;
+
+        text-align: center;
+        font-family: "Reddit Sans";
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: bolder;
+        line-height: 0.125rem;
+    }
+
+    .storyAnswerDiv {
+        /* border: 1px solid orange; */
+        width: 100%;
+        max-width: 100%;
+        padding: 10px;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
+
+    .storyAnswerDiv p {
+        color: #000;
+
+        font-family: "Reddit Sans";
+        font-size: 1.125rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 128%;
+        /* 1.44rem */
+    }
+
+    .storyImageRectangelCont {
+        width: 50%;
+        height: auto;
+        border-radius: 0.625rem;
+        /* background: #D9D9D9; */
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 1.2rem;
+        padding-top: 10px;
+    }
+
+    .storyImageRectangelCont img {
+        width: 100%;
+        height: 100%;
+        border-radius: 0.625rem;
+        object-fit: fill;
+    }
+
+    .readOutContainer {
+        width: 100%;
+    }
+
+    .newsBreifHead {
+        color: white;
+        text-align: center;
+
+        font-family: "Reddit Sans";
+        font-size: var(--Typography-Headline-H4-Size, 16px);
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        /* 19.2px */
+    }
+
+    .newsBreifText {
+        color: #000;
+        font-family: "Reddit Sans";
+        font-size: var(--Typography-Text-Caption-Size, 12px);
+        font-style: normal;
+        font-weight: 400;
+        line-height: 144%;
+        /* 17.28px */
+    }
+
+    .storyImageContainerinner {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        /* width: 100%; */
+    }
+
+    .storyHeadingDivOuter {
+        padding-top: 10px;
+    }
+}

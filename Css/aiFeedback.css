@@ -1,0 +1,46 @@
+.aimainContainer {
+    display: flex;
+    padding: 20px 10px;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    align-self: stretch;
+    width: 100%;
+    height: 100%;
+}
+
+.aiplayAudio{
+   border: none;
+   border-radius: 14px;
+   padding: 10px;
+    background-color: white;
+
+}
+
+.aiPlayAudioContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+
+.aitextContainer{
+    width: 70%;
+    text-align: center;
+}
+
+.Aifeedaback{
+    padding: 15px;
+    height: 200px;
+    overflow-y: scroll;
+    /* align-self: stretch; */
+}
+.aifeedBackContainer{
+    /* height: 50%; */
+    border: none;
+    border-radius: 14px;
+    padding: 10px;
+     background-color: white;
+}

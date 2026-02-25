@@ -1,0 +1,490 @@
+@media(min-width: 1024px) {
+    .outcontainer {
+        width: 100%;
+        max-width: 70.0625rem;
+        margin: auto;
+        height: 100%;
+        background-color: #A3A6FA;
+        box-sizing: border-box;
+        border-radius: 8px;
+        padding: 16px 17px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .mainContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-self: stretch;
+        gap: 1rem;
+        width: 100%;
+        height: 100%;
+    }
+
+    .questionOutBox {
+        width: 100%;
+        height: 100%;
+        background-image: url("https://d3g74fig38xwgn.cloudfront.net/readout-activity/Background-images/MiniDialogues.svg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        position: relative;
+    }
+
+    .AContent {
+        display: flex;
+        width: 354px;
+        min-height: 77px;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+        border-radius: 50px;
+        background-color: #F7C3E5;
+        box-shadow: 0 4px 0 0 #000;
+    }
+
+    .Abutton {
+        display: flex;
+        width: 77px;
+        min-height: 77px;
+        padding: 11px 21px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: white;
+        border-radius: 50%;
+        background: var(--Secondary-Border-Default, #86C440);
+        box-shadow: 0 4px 0 0 #000;
+        top: 24%;
+        left: 10%;
+    }
+
+    .AContainer {
+        display: flex;
+        position: absolute;
+        gap: 20px;
+        top: 24%;
+        left: 10%;
+    }
+
+    .BContainer {
+        display: flex;
+        position: absolute;
+        gap: 20px;
+        bottom: 24%;
+        right: 10%;
+    }
+
+    .Bbutton {
+        display: flex;
+        width: 77px;
+        height: 77px;
+        padding: 11px 21px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 50%;
+        background: var(--Secondary-Border-Default, #1E90FF);
+        box-shadow: 0 4px 0 0 #000;
+        color: white;
+    }
+
+    .BContent {
+        display: flex;
+        width: 354px;
+        /* height: 77px; */
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+        border-radius: 50px;
+        background-color: #EEE853;
+        box-shadow: 0 4px 0 0 #000;
+    }
+
+    .firstArrow {
+        position: absolute;
+        left: -13px;
+        /* top: 68%; */
+        bottom: -20px;
+        z-Index: 1
+    }
+
+    .secondArrow {
+        position: absolute;
+        left: -66px;
+        bottom: -20px;
+        z-Index: 1
+    }
+
+    .miniText {
+        color: #000;
+        text-align: center;
+
+        /* Headline/H3 */
+        font-family: "Reddit Sans";
+        font-size: var(--Typography-Headline-H3-Size, 24px);
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        /* 28.8px */
+    }
+    .transText{
+        text-align: center;
+
+        /* Headline/H3 */
+        font-family: "Reddit Sans";
+        font-size: var(--Typography-Headline-H3-Size, 22px);
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        z-index: 10;
+    }
+    .readOutContainer {
+            display: flex;
+            justify-content: center;
+            height: 100%;
+            width: 26%;
+            overflow: auto;
+        
+    }
+
+}
+
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .outcontainer {
+        width: 100%;
+        max-width: 70.0625rem;
+        margin: auto;
+        /* height: 100%; */
+        background-color: #A3A6FA;
+        box-sizing: border-box;
+        border-radius: 8px;
+        padding: 16px 17px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+        position: relative;
+    }
+
+    .mainContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-self: stretch;
+        gap: 1rem;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .questionOutBox {
+        width: 100%;
+        height: 40rem;
+        background-image: url("https://d3g74fig38xwgn.cloudfront.net/readout-activity/Background-images/MiniDialogues.svg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        position: relative;
+    }
+
+    .AContent {
+        display: flex;
+        width: 354px;
+        height: 77px;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+        border-radius: 50px;
+        background-color: #F7C3E5;
+        box-shadow: 0 4px 0 0 #000;
+    }
+
+    .Abutton {
+        display: flex;
+        width: 77px;
+        height: 77px;
+        padding: 11px 21px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        color: white;
+        border-radius: 50%;
+        background: var(--Secondary-Border-Default, #86C440);
+        box-shadow: 0 4px 0 0 #000;
+        top: 24%;
+        left: 10%;
+    }
+
+    .AContainer {
+        display: flex;
+        position: absolute;
+        gap: 20px;
+        top: 24%;
+        left: 5%;
+    }
+
+    .BContainer {
+        display: flex;
+        position: absolute;
+        gap: 20px;
+        bottom: 45%;
+        right: 5%;
+    }
+
+    .Bbutton {
+        display: flex;
+        width: 77px;
+        height: 77px;
+        padding: 11px 21px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 50%;
+        background: var(--Secondary-Border-Default, #1E90FF);
+        box-shadow: 0 4px 0 0 #000;
+        color: white;
+    }
+
+    .BContent {
+        display: flex;
+        width: 354px;
+        height: 77px;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+        border-radius: 50px;
+        background-color: #EEE853;
+        box-shadow: 0 4px 0 0 #000;
+    }
+
+    .readOutContainer {
+        width: 100%;
+    }
+
+    .firstArrow {
+        position: absolute;
+        left: -4%;
+        top: 68%;
+        z-Index: 1
+    }
+
+    .secondArrow {
+        position: absolute;
+        left: -84%;
+        top: 68%;
+        z-Index: 1
+    }
+
+    .miniText {
+        color: #000;
+        text-align: center;
+
+        /* Headline/H3 */
+        font-family: "Reddit Sans";
+        font-size: var(--Typography-Headline-H3-Size, 24px);
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        /* 28.8px */
+    }
+    .transText{
+        text-align: center;
+
+        /* Headline/H3 */
+        font-family: "Reddit Sans";
+        font-size: var(--Typography-Headline-H3-Size, 20px);
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        z-index: 10;
+    }
+}
+
+@media (max-width: 767px) {
+    .firstArrowImage{
+        width: 51px;
+        height: 38px;
+    }
+
+    .secondArrowImage{
+        width: 51px;
+        height: 38px;
+    }
+
+    .outcontainer {
+        width: 98%;
+        max-width: 70.0625rem;
+        margin: auto;
+        /* height: 100%; */
+        background-color: #A3A6FA;
+        box-sizing: border-box;
+        border-radius: 12px;
+        padding: 7px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        /* gap: 10px; */
+        position: relative;
+    }
+
+    .mainContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        align-self: stretch;
+        gap: 1rem;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+
+    .questionOutBox {
+        width: 100%;
+        height: 501px;
+        background-image: url("https://d3g74fig38xwgn.cloudfront.net/readout-activity/Background-images/MiniDialogues.svg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border-radius: 10px;
+        position: relative;
+    }
+
+    .AContent {
+        display: flex;
+        width: 227px;
+        height: 49px;
+        padding: 8px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        flex-shrink: 0;
+        border-radius: 50px;
+        background-color: #F7C3E5;
+        box-shadow: 0 4px 0 0 #000;
+    }
+
+    .Abutton {
+        display: flex;
+        width: 49px;
+        height: 49px;
+        padding: 7px 13px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 6px;
+        color: white;
+        border-radius: 50%;
+        background: var(--Secondary-Border-Default, #86C440);
+        box-shadow: 0 4px 0 0 #000;
+        top: 24%;
+        left: 10%;
+    }
+
+    .AContainer {
+        display: flex;
+        position: absolute;
+        gap: 20px;
+        top: 20%;
+        left: 3%;
+    }
+
+    .BContainer {
+        display: flex;
+        position: absolute;
+        gap: 20px;
+        bottom: 45%;
+        right: 3%;
+    }
+
+    .Bbutton {
+        display: flex;
+        width: 49px;
+        height: 49px;
+        padding: 7px 13px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 50%;
+        background: var(--Secondary-Border-Default, #1E90FF);
+        box-shadow: 0 4px 0 0 #000;
+        color: white;
+    }
+
+    .BContent {
+        display: flex;
+        width: 227px;
+        height: 49px;
+        padding: 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        flex-shrink: 0;
+        border-radius: 50px;
+        background-color: #EEE853;
+        box-shadow: 0 4px 0 0 #000;
+    }
+
+    .readOutContainer {
+        width: 100%;
+    }
+
+    .firstArrow {
+        position: absolute;
+        left: -6%;
+        top: 59%;
+        z-Index: 1
+    }
+
+    .secondArrow {
+        position: absolute;
+        left: -117%;
+        top: 58%;
+        z-Index: 1
+    }
+
+    .miniText {
+        color: #000;
+
+        text-align: center;
+        /* Headline/H5 */
+        font-family: "Reddit Sans";
+        font-size: var(--Typography-Headline-H5-Size, 14px);
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        /* 16.8px */
+    }
+    .transText{
+        text-align: center;
+
+        /* Headline/H3 */
+        font-family: "Reddit Sans";
+        font-size: var(--Typography-Headline-H3-Size, 10px);
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        z-index: 10;
+    }
+}

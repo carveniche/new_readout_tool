@@ -1,0 +1,128 @@
+@media(min-width: 1024px) {
+    .buttonContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .skipbuttonStyle {
+
+        display: flex;
+        width: 100px;
+        padding: var(--Button-V-Padding, 16px) var(--Button-H-Padding, 28px);
+        justify-content: center;
+        align-items: center;
+        gap: var(--Button-Spacing, 0.5rem);
+
+    }
+
+    .nextButton {
+        display: flex;
+        width: 100px;
+        padding: var(--Button-V-Padding, 16px) var(--Button-H-Padding, 28px);
+        justify-content: center;
+        align-items: center;
+        gap: var(--Button-Spacing, 8px);
+        border-radius: var(--Button-Radius, 999px);
+        background: var(--Orange, #FB9C46);
+        color: #ffffff !important;
+        /* force white text */
+    }
+
+    .preButton {
+        display: flex;
+        width: 100px;
+        padding: var(--Button-V-Padding, 16px) var(--Button-H-Padding, 28px);
+        justify-content: center;
+        align-items: center;
+        gap: var(--Button-Spacing, 8px);
+        border-radius: var(--Button-Radius, 999px);
+    }
+}
+
+
+@media (max-width: 1024px) and (min-width: 768px) {
+    .buttonContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .skipbuttonStyle {
+
+        display: flex;
+        padding: 16px;
+        width: 100px;
+        justify-content: center;
+        align-items: center;
+        gap: var(--Button-Spacing, 0.5rem);
+
+    }
+
+    .nextButton {
+        display: flex;
+        width: 119px;
+        padding: var(--Button-V-Padding, 16px) var(--Button-H-Padding, 28px);
+        justify-content: center;
+        align-items: center;
+        gap: var(--Button-Spacing, 8px);
+        border-radius: var(--Button-Radius, 999px);
+        background: var(--Orange, #FB9C46);
+        /* color: white; */
+        color: #ffffff !important;
+        /* force white text */
+    }
+     .preButton {
+        display: flex;
+        padding: var(--Button-V-Padding, 16px) var(--Button-H-Padding, 28px);
+        justify-content: center;
+        align-items: center;
+        gap: var(--Button-Spacing, 8px);
+        border-radius: var(--Button-Radius, 999px);
+    }
+}
+
+@media (max-width: 767px) {
+    .buttonContainer {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 7px;
+    }
+
+    .skipbuttonStyle {
+
+        display: flex;
+        width: 93px;
+        /* height: 50px; */
+        padding: 16px;
+        justify-content: center;
+        align-items: center;
+        gap: var(--Button-Spacing, 0.5rem);
+
+    }
+
+    .nextButton {
+        display: flex;
+        width: 93px;
+        padding: 16px;
+        justify-content: center;
+        align-items: center;
+        gap: var(--Button-Spacing, 8px);
+        border-radius: var(--Button-Radius, 999px);
+        background: var(--Orange, #FB9C46);
+        color: #ffffff !important;
+        /* force white text */
+    }
+     .preButton {
+        display: flex;
+        width: 93px;
+        padding: 16px;
+        justify-content: center;
+        align-items: center;
+        gap: var(--Button-Spacing, 8px);
+        border-radius: var(--Button-Radius, 999px);
+    }
+}
