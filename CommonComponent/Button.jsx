@@ -14,7 +14,7 @@ const Button = ({ buttonContainerStyle = {} }) => {
         setIsLastQuestionSkip,setIsAiResonce,setIsSkipPopUp
     } = useContext(readoutContext);
     const theme = useTheme();
-    const isIpad = useMediaQuery(theme.breakpoints.down("ssm"), { noSsr: true });
+    const isIpad = useMediaQuery(theme.breakpoints.down("sm"), { noSsr: true });
     const [hover, setHover] = useState(false);
     const [totalQuestion, setTotalQuestion] = useState(0);
 

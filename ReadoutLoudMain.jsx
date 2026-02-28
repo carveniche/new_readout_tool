@@ -33,15 +33,15 @@ const ReadoutLoudMain = () => {
     const [isTranslation,setIsTranslation] = useState(false)
     const [firstCatName, setFirstCatName] = useState([])
 
-    useEffect(() => {
-        setQuestionData(data);
-        console.log(data, "data")
-    }, []);
+    // useEffect(() => {
+    //     setQuestionData(data);
+    //     console.log(data, "data")
+    // }, []);
 
     useEffect(() => {
         window.setReadoutData = (data) => {
             const dataReceived = data?.[0];
-            // console.log("React received:", dataReceived);
+            console.log("React received:", dataReceived);
             setQuestionData(dataReceived?.question_data)
             setSkippedLimitReached(dataReceived?.readout_details?.skipped_limit_reached);
             setAttemptsReached(dataReceived?.readout_details?.attempts_reached);
@@ -52,7 +52,7 @@ const ReadoutLoudMain = () => {
             setCurrentIndex(renderIndex);
             setLanguageOptions(dataReceived?.languages)
             setIsTranslation(dataReceived?.is_translated)
-            // console.log(dataReceived.level_one_categories,"list of categoty")
+            console.log(dataReceived.level_one_categories,"listofcategoty")
             setFirstCatName(dataReceived?.level_one_categories)
             setRemaingSkipCount(dataReceived?.readout_details?.remaining_skip_count)
         };
@@ -88,7 +88,8 @@ const ReadoutLoudMain = () => {
         "Applications": <Applications />,
     };
     
-
+    console.log(questionData,"questionData")
+  
     if (!questionData) return null;
     
     const categoriesToCheck = ["Everyday Phrases", "Question & Answers","Mini Dialogues", "Classroom instructions","Requests","Sentences"];
@@ -97,10 +98,10 @@ const ReadoutLoudMain = () => {
             <LanguageTranstations  languageOptions={languageOptions}/>
         );
     }
-
+   
     return (
         <>
-            {componentMap[questionData[0].category_name]}
+            {componentMap[questionData[0]?.category_name]}
         </>
     )
 }

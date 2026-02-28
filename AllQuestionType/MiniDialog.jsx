@@ -1,5 +1,4 @@
 import React, { useEffect, useState, useMemo, useContext } from 'react'
-import { QuillDeltaToHtmlConverter } from 'quill-delta-to-html'
 import { colors, useMediaQuery } from "@mui/material";
 import { useTheme } from "@mui/material/styles";
 import RecordingBox from '../RecordingBox/RecordingBox';
@@ -38,7 +37,7 @@ const MiniDialog = ({ data }) => {
         setTotalQuestion(parsed.length)
         const questionText = parsed[currentIndex].question_text;
         const parsedQuestionText = JSON.parse(questionText);
-        const parsedLangTrans = safeJSONParseObject(parsed[currentIndex]?.traslated_word)
+        const parsedLangTrans =     (parsed[currentIndex]?.traslated_word)
         // console.log(parsedLangTrans?.lines,"sdfsdfsdfsdf")
         setTranslatedPassage(parsedLangTrans.lines)
         setsendBackend(parsed[currentIndex])
